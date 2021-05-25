@@ -1,0 +1,78 @@
+html {
+	background-color: transparent;
+}
+
+body {
+	width: 42%;
+	margin: 2em auto;
+}
+
+a[disabled] {
+	color: grey;
+	cursor: default;
+	background-color: lightgray;
+}
+
+.hard {
+	border: 10px solid purple;
+}
+
+.sixnine {
+	background-color: pink;
+	border: 20px solid hotpink;
+	outline: 15px solid pink;
+
+}
+#app {
+	background-color: #fff;
+}
+h1 {
+	font-size: 5em;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.add-new {
+  max-width: 320px;
+  /* margin: 0 auto 3em; */
+  margin: 1em auto 1em;
+}
+
+.add-new input {
+  font-size: 14px;
+  color: #000;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #000;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.add-new input:focus {
+  outline: none;
+}
+
+
+
+.animate__jackInTheBox{
+  color: #4ac3b8;
+  font-size: 23px;
+  margin: 1em 0;
+}
+
+.sun {
+  width: 20%;
+  position: absolute;
+  left: 50%;
+  top: -40px;
+}
+
+[v-cloak] {
+  opacity: 0;
+  transition: opacity 5s ease-in;
+}
+
+
+
